@@ -8,11 +8,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
     <title>Strona 1</title>
 </head>
-<body>
-        <h1>Witam na mojej stronie</h1>
-            <input type="number">
-        <script src="script.js">
 
-        </script>
+<body>
+   <div class="outputdiv">
+    <h1 id="wynik" class="output">Wynik</h1>
+   </div>
+       
+    <div class="inputs">
+        <input type="number" id="input1" >
+        <input type="number" id="input2" >
+        <button id="guzik" onclick="dodawanie()">Dodaj</button>
+        <button id="guzik2" onclick="odejmowanie()">Odejmowanie</button>
+        <button id="guzik3" onclick="mnozenie()">Mnozenie</button>
+        <button id="guzik4" onclick="dzielenie()">Dzielenie</button>
+    </div>
+
+    <script src="script.js">
+    </script>
+
 </body>
 </html>

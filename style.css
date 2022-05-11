@@ -3,3 +3,49 @@
     font-family: 'Koulen', cursive;
     margin: 0px;
 }
+.output
+{
+    border: 4px double black;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+ .outputdiv
+ {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 150px;
+     width: 100%;
+ }
+.inputs
+{
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+#input1,#input2
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: brown;
+}
+
+#guzik,#guzik2,#guzik3,#guzik4
+{
+    border-radius: 10px;
+    color: black;
+    border: 3px dashed black;
+    background-color: brown;
+
+      
+}
+body
+{
+    background-color: blanchedalmond;
+}
